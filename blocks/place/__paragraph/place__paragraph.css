@@ -9,22 +9,17 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
-    max-width: 456px;
-  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
     font-size: 16px;
     line-height: 26px;
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
-    max-width: 352px;
+    width: calc(100% - 2*16px);
+    margin: 0 auto 24px;
   }
 }
