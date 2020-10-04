@@ -1,9 +1,9 @@
 .footer {
   max-width: 1184px;
   margin: 0 auto 24px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "menu copyright";
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,5 +21,12 @@
 @media screen and (max-width: 676px) {
   .footer {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    grid-template-areas: "menu"
+                         "copyright";
   }
 }

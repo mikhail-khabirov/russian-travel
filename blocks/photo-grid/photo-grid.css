@@ -19,7 +19,7 @@
   .photo-grid {
     gap: 16px;
     max-width: 720px;
-    grid-template-columns: repeat(auto-fit, 352px);
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
   }
 }
 
@@ -27,6 +27,6 @@
   .photo-grid {
     gap: 12px;
     max-width: 288px;
-    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
   }
 }
