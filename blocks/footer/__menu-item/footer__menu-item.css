@@ -1,0 +1,22 @@
+.footer__menu-item {
+  margin-right: 18px;
+}
+
+.footer__menu-item:last-child {
+  margin-right: 0;
+}
+
+.footer__menu-item:hover {
+  opacity: 0.8;
+  transition: opacity .2s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu-item {
+    margin: 0 0 32px;
+  }
+
+  .footer__menu-item:last-child {
+    margin-bottom: 48px;
+  }
+}

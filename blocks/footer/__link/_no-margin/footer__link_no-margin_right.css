@@ -1,9 +1,0 @@
-.footer__link_no-margin_right {
-  margin-right: 0;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__link_no-margin_right {
-    margin-bottom: 48px;
-  }
-}
